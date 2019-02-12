@@ -53,41 +53,44 @@ if (mouseIsPressed){
 
 ## Dessiner une forme de base
 
-```
-Forme ellipse => ellipse(x, y, l, h)
-    x = Coordonnée x de l'ellipse (axe horizontale)
+
+L'ellipse => ellipse(x, y, l, h)
+ ```x = Coordonnée x de l'ellipse (axe horizontale)
     y = Coordonnée y de l'ellipse (axe verticale)
     l = largeur de l'ellipse
     h = hauteur de l'ellipse
+ ```
     
-Forme rectangle => rect(x, y, l, h)
-    x = Coordonnée x du rectangle (axe horizontale)
+Le rectangle => rect(x, y, l, h)
+``` x = Coordonnée x du rectangle (axe horizontale)
     y = Coordonnée y du rectangle (axe verticale)
     l = largeur du rectangle
     h = hauteur du rectangle
+ ```
     
-Possibilité de rajouter des valeurs => rect(x, y, w, h, [hg], [hd], [bd], [bg])
-    [hg] = forme de l'angle en haut à gauche soit "haut gauche = hg"
+  Possibilité de rajouter des valeurs => rect(x, y, w, h, [hg], [hd], [bd], [bg])
+ ```[hg] = forme de l'angle en haut à gauche soit "haut gauche = hg"
     [hd] = forme angle en haut à droite "haut droit = hd"
     [bd] = "bas droit = bd"
     [bg] = "bas gauche = bg"
+ ```
  
- Forme arc => arc(x, y, w, h, start, stop, [mode], [detail])
-    x = Abscisse de l'elipse de l'arc
+ L'arc => arc(x, y, w, h, start, stop, [mode], [detail])
+ ```  x = Abscisse de l'elipse de l'arc
     y = Ordonnée de l'ellipse de l'arc
     w = Largeur de l'ellipse de l'arc par défaut
     x = Hauteur de l'ellipse de l'arc par défaut
     start = angle de début de l'arc, spécifié en radian
     stop = angle de fin de l'arc, spécifié en radian 
-    mode = Paramètre optionnel, permet de définir le chemin du dessin de l'arc : CHORD, OPEN, PIE
+    mode = Paramètre optionnel, permet de définir le chemin du dessin de l'arc : CHORD, OPEN, PIE 
+ ```
     
- Forme ligne => line(xA, yAB, xB, yB)
-    xA = coordonnée du point A en abscisse
+ La ligne => line(xA, yAB, xB, yB)
+ ```xA = coordonnée du point A en abscisse
     yA = coordonnée du point A en ordonnée
     xB = coordonnée du point B en abscisse
-    yB = coordonnée du point B en ordonnée
-    
-```
+    yB = coordonnée du point B en ordonnée    
+ ```
 ## Inspiration :
 
 [Board pinterest](https://www.pinterest.fr/simonrenaultper/processing-community-days/)
