@@ -52,7 +52,7 @@ if (mouseIsPressed){
 
 
 
-# Dessiner une forme
+## Dessiner une forme
 
 ```
 Forme ellipse => ellipse(x, y, w, h)
