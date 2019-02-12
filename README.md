@@ -55,11 +55,11 @@ if (mouseIsPressed){
 
 
 L'ellipse => ellipse(x, y, l, h)
- ```x = Coordonnée x de l'ellipse (axe horizontale)
+    x = Coordonnée x de l'ellipse (axe horizontale)
     y = Coordonnée y de l'ellipse (axe verticale)
     l = largeur de l'ellipse
     h = hauteur de l'ellipse
- ```
+``` ellipse(12, 40, 20, 40)```
     
 Le rectangle => rect(x, y, l, h)
 ``` x = Coordonnée x du rectangle (axe horizontale)
@@ -92,7 +92,7 @@ Le rectangle => rect(x, y, l, h)
  ```xA = coordonnée du point A en abscisse
     yA = coordonnée du point A en ordonnée
     xB = coordonnée du point B en abscisse
-    yB = coordonnée du point B en ordonnée    
+    yB = coordonnée du point B en ordonnée   
  ```
 ## Inspiration :
 
