@@ -247,7 +247,7 @@ function draw() {
 }
 ```
 
-Nous devons changer l'origine du repère de l'ellipse et le metre au niveau du début du rectangle, soit à 300px, de même nous allons changer son ordonnée à 75px :
+Nous devons changer l'origine du repère de l'ellipse et le mettre au niveau du début du rectangle, soit à 300px, de même nous allons changer son ordonnée à 75px :
 
 ```js
 function setup() {
@@ -269,7 +269,25 @@ function draw() {
  ellipse(300, 75, 25, 25); 
 }
 ```
+Enfin pour finir, il faut lier cette fonction à l'ellipse :
 
+```js
+
+function setup() {
+ createCanvas(windowWidth, windowHeight)
+ noStroke()
+}
+
+function draw() {
+  background(204);
+  fill(13, 123,213)
+  rect(300, 0, 200, 100)
+    
+ fill(255)
+ let x1 = map(mouseX, 90, windowWidth/2, 0, 200, true); // Cette fonction s'appelle let x1
+ ellipse(300+x1, 0, 25, 25); // Nous voulons que cette fonction joue sur la valeur x de l'ellipse, c'est pour cela qu'elle va s'additionner au x de l'ellipse 
+}
+```
 
 ## Pour aller plus loin
 * [ressource en français : b2renger recoules](https://github.com/b2renger/Introduction_p5js)
