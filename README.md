@@ -5,11 +5,11 @@
 [Board pinterest](https://www.pinterest.fr/simonrenaultper/processing-community-days/)
 
 ## Références utiles : 
-[https://p5js.org/reference/](https://p5js.org/reference/)
-[https://www.openprocessing.org/browse/?q=vortex&time=anytime&type=all#](https://www.openprocessing.org/browse/?q=vortex&time=anytime&type=all#)
-[https://codepen.io/search/pens?q=P5JS&page=1&order=popularity&depth=everything&show_forks=on](https://codepen.io/search/pens?q=P5JS&page=1&order=popularity&depth=everything&show_forks=on)
-[https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA](https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
-[https://github.com/b2renger/p5js_codecreatif](https://github.com/b2renger/p5js_codecreatif)
+* [https://p5js.org/reference/](https://p5js.org/reference/)
+* [https://www.openprocessing.org/browse/?q=vortex&time=anytime&type=all#](https://www.openprocessing.org/browse/?q=vortex&time=anytime&type=all#)
+* [https://codepen.io/search/pens?q=P5JS&page=1&order=popularity&depth=everything&show_forks=on](https://codepen.io/search/pens?q=P5JS&page=1&order=popularity&depth=everything&show_forks=on)
+* [https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA](https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+* [https://github.com/b2renger/p5js_codecreatif](https://github.com/b2renger/p5js_codecreatif)
 
 
 ## Explication
@@ -189,8 +189,8 @@ function draw(){
 ``` 
 
 ## Pour aller plus loin
-[ressource en français : b2renger recoules](https://github.com/b2renger/Introduction_p5js)
-[ressource anglais : Daniel Shiffman] (https://shiffman.net/)
-[ressource video de Shiffman](https://www.youtube.com/user/shiffman)
-[https://codepen.io/](https://codepen.io/)
-[https://www.openprocessing.org/](https://www.openprocessing.org/)
+* [ressource en français : b2renger recoules](https://github.com/b2renger/Introduction_p5js)
+* [ressource anglais : Daniel Shiffman] (https://shiffman.net/)
+* [ressource video de Shiffman](https://www.youtube.com/user/shiffman)
+* [https://codepen.io/](https://codepen.io/)
+* [https://www.openprocessing.org/](https://www.openprocessing.org/)
