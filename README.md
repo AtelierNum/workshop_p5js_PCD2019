@@ -223,7 +223,30 @@ function draw() {
   ellipse(0, 0, 25, 25) //ellipse se situant à l'orgine du repère, et de diamètre 25px
 }
 ```
-Mainteant nous allons utiliser la fonction map qui va permettre l'animation. Elle s'écrit **map(valeur, début1, début2, fin1, fin2, [dans les limites]** 
+Mainteant nous allons utiliser la fonction map qui va permettre l'animation. Elle s'écrit **map(valeur, début1, fin1, début2, fin2, [dans les limites]**)
+Dans notre exemple, la valeur correspond à la souris et les valeurs de "début1, fin1" correspondront aux valeurs liées à la souris. Les valeurs de "début2, fin2" correspondront au rendu final.
+
+```js
+function setup() {
+ createCanvas(windowWidth, windowHeight)
+ noStroke()
+}
+
+function draw() {
+  background(204);
+  fill(13, 123,213)
+  rect(300, 0, 200, 100)
+    
+ fill(255)
+ map(mouseX, 90, windowWidth/2, 0, 200, true); 
+ 	//mousse x = L'ellipse bouge en fonction de la souris 
+	// 90 = lorsque le souris se trouve à 90px du canvas, cela correspond au point d'origine
+	// windowWidth/2 = lorsque la souris se situe à la moitié du canvas, cela correspond au point de fin 
+	// le 0, le 200 et le true seront expliqués juste après
+ ellipse(0, 0, 25, 25); 
+}
+```
+
 
 
 ## Pour aller plus loin
