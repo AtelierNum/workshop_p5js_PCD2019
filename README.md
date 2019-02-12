@@ -66,7 +66,7 @@ Forme rectangle => rect(x, y, l, h)
     l = largeur du rectangle
     h = hauteur du rectangle
     
-Possibilité de rajouter des valeurs => rect(x, y, w, h, [tl], [tr], [br], [bl])
+Possibilité de rajouter des valeurs => rect(x, y, w, h, [hg], [hd], [bd], [bg])
     [hg] = forme de l'angle en haut à gauche soit "haut gauche = hg"
     [hd] = forme angle en haut à droite "haut droit = hd"
     [bd] = "bas droit = bd"
@@ -80,6 +80,7 @@ Possibilité de rajouter des valeurs => rect(x, y, w, h, [tl], [tr], [br], [bl])
     start = angle de début de l'arc, spécifié en radian
     stop = angle de fin de l'arc, spécifié en radian 
     mode = Paramètre optionnel, permet de définir le chemin du dessin de l'arc : CHORD, OPEN, PIE
+    
 ```
 ## Inspiration :
 
