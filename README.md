@@ -56,7 +56,8 @@ if (mouseIsPressed){
 
 ### L'ellipse
 
-ellipse(x, y, l, h)
+S'ecrit sous la forme : ellipse(x, y, l, h)
+
 x = Coordonnée x du centre de l'ellipse (axe horizontale)
 
 y = Coordonnée y du centre de l'ellipse (axe verticale)
@@ -64,42 +65,78 @@ y = Coordonnée y du centre de l'ellipse (axe verticale)
 l = largeur de l'ellipse
 
 h = hauteur de l'ellipse
+
 ``` ellipse(12, 40, 20, 40)```
     
-Le rectangle => rect(x, y, l, h)
-    x = Coordonnée x du rectangle (axe horizontale)
-    y = Coordonnée y du rectangle (axe verticale)
-    l = largeur du rectangle
-    h = hauteur du rectangle    
-```rect(20, 50, 70, 20)
- 
+###Le rectangle 
+
+S'écrit sous la form : rect(x, y, l, h)
+
+x = Coordonnée x du rectangle (axe horizontale)
     
-  Possibilité de rajouter des valeurs => rect(x, y, w, h, [hg], [hd], [bd], [bg])
-    [hg] = forme de l'angle en haut à gauche soit "haut gauche = hg"
-    [hd] = forme angle en haut à droite "haut droit = hd"
-    [bd] = "bas droit = bd"
-    [bg] = "bas gauche = bg"
- ```
+y = Coordonnée y du rectangle (axe verticale)
+    
+l = largeur du rectangle
+    
+h = hauteur du rectangle 
+    
+```rect(20, 50, 70, 20)```
+    
+  Possibilité de rajouter des valeurs = rect(x, y, w, h, [hg], [hd], [bd], [bg])
+  
+[hg] = forme de l'angle en haut à gauche soit "haut gauche = hg"
+    
+[hd] = forme angle en haut à droite "haut droit = hd"
+    
+[bd] = "bas droit = bd"
+   
+[bg] = "bas gauche = bg"
+    
+ ```rect(20, 50, 70, 20, 5, 0, 10, 0)```
  
- L'arc => arc(x, y, w, h, start, stop, [mode], [detail])
- ```  x = Abscisse de l'elipse de l'arc
-    y = Ordonnée de l'ellipse de l'arc
-    w = Largeur de l'ellipse de l'arc par défaut
-    x = Hauteur de l'ellipse de l'arc par défaut
-    start = angle de début de l'arc, spécifié en radian
-    stop = angle de fin de l'arc, spécifié en radian 
-    mode = Paramètre optionnel, permet de définir le chemin du dessin de l'arc : CHORD, OPEN, PIE 
- ```
- Le point => point(x, y)
-  ```x = coordonné en abscisse
-     y = coordonnée en ordonnée
-  ```
- La ligne => line(xA, yAB, xB, yB)
- ```xA = coordonnée du point A en abscisse
-    yA = coordonnée du point A en ordonnée
-    xB = coordonnée du point B en abscisse
-    yB = coordonnée du point B en ordonnée   
- ```
+ ###L'arc
+ 
+ S'ecrit sous la forme : arc(x, y, w, h, start, stop, [mode], [detail])
+ 
+x = Abscisse de l'elipse de l'arc
+    
+y = Ordonnée de l'ellipse de l'arc
+    
+w = Largeur de l'ellipse de l'arc par défaut
+    
+x = Hauteur de l'ellipse de l'arc par défaut
+    
+start = angle de début de l'arc, spécifié en radian
+    
+stop = angle de fin de l'arc, spécifié en radian 
+  
+mode = Paramètre optionnel, permet de définir le chemin du dessin de l'arc : CHORD, OPEN, PIE 
+    
+ ``` arc(100, 100, 50, 70, HALF_PI, PI```
+ ###Le point
+ 
+ S'ecrit sous la forme : point(x, y)
+ 
+x = coordonné en abscisse
+   
+y = coordonnée en ordonnée
+     
+  ```point(100, 30)```
+  
+ ###La ligne
+ 
+ S'ecrit sous la forme : line(xA, yAB, xB, yB)
+ 
+xA = coordonnée du point A en abscisse
+ 
+yA = coordonnée du point A en ordonnée
+ 
+xB = coordonnée du point B en abscisse
+ 
+yB = coordonnée du point B en ordonnée 
+
+ ```line(50, 70, 100, 150)```
+ 
 ## Inspiration :
 
 [Board pinterest](https://www.pinterest.fr/simonrenaultper/processing-community-days/)
