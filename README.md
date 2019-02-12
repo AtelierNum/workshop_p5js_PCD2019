@@ -55,17 +55,18 @@ if (mouseIsPressed){
 
 
 L'ellipse => ellipse(x, y, l, h)
-    x = Coordonnée x de l'ellipse (axe horizontale)
-    y = Coordonnée y de l'ellipse (axe verticale)
+    x = Coordonnée x du centre de l'ellipse (axe horizontale)
+    y = Coordonnée y du centre de l'ellipse (axe verticale)
     l = largeur de l'ellipse
     h = hauteur de l'ellipse
 ``` ellipse(12, 40, 20, 40)```
     
 Le rectangle => rect(x, y, l, h)
-``` x = Coordonnée x du rectangle (axe horizontale)
+    x = Coordonnée x du rectangle (axe horizontale)
     y = Coordonnée y du rectangle (axe verticale)
     l = largeur du rectangle
-    h = hauteur du rectangle
+    h = hauteur du rectangle    
+```rect(20, 50, 70, 20)
  
     
   Possibilité de rajouter des valeurs => rect(x, y, w, h, [hg], [hd], [bd], [bg])
