@@ -80,7 +80,7 @@ Possibilité de rajouter des valeurs => rect(x, y, w, h, [tl], [tr], [br], [bl])
     x = Hauteur de l'ellipse de l'arc par défaut
     start = angle de début de l'arc, spécifié en radian
     stop = angle de fin de l'arc, spécifié en radian 
-    mode = Paramètre optionnel, permet de définir le chemin du dessin de l'arc : CHORD 
+    mode = Paramètre optionnel, permet de définir le chemin du dessin de l'arc : CHORD, OPEN, PIE
 ```
 ## Inspiration :
 
