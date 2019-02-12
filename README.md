@@ -1,4 +1,9 @@
 # workshop_p5js_PCD2019
+
+## Un peu d'inspiration :
+
+[Board pinterest](https://www.pinterest.fr/simonrenaultper/processing-community-days/)
+
  
 ## Explication
 Processing est un logiciel de code créatif.
@@ -177,7 +182,12 @@ function draw(){
 }
 ``` 
 
-## 
-## Inspiration :
 
-[Board pinterest](https://www.pinterest.fr/simonrenaultper/processing-community-days/)
+## Pour aller plus loin
+
+[ressource en français : b2renger recoules](https://github.com/b2renger/Introduction_p5js)
+
+[ressource anglais : Daniel Shiffman] (https://shiffman.net/)
+[ressource video de Shiffman](https://www.youtube.com/user/shiffman)
+[https://codepen.io/](https://codepen.io/)
+[https://www.openprocessing.org/](https://www.openprocessing.org/)
