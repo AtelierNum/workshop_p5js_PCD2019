@@ -7,6 +7,8 @@
 https://p5js.org/reference/
 https://www.openprocessing.org/browse/?q=vortex&time=anytime&type=all#
 https://codepen.io/search/pens?q=P5JS&page=1&order=popularity&depth=everything&show_forks=on
+https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA
+https://github.com/b2renger/p5js_codecreatif
 
 
 ## Premier sketch
