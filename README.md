@@ -175,7 +175,7 @@ function draw(){
 }
 ``` 
 
-## Un peut d'interaction 
+## Un peu d'interaction 
 
 Il est possible de faire interagire une forme avec la souris, le clavier, etc... Pour cela nous utiliserons les commandes **mouseX** et **mouseY**. Dans l'exemple si-joint nous allons animer un rond.
 
