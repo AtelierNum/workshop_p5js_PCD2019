@@ -1,5 +1,9 @@
 # workshop_p5js_PCD2019
  
+ P5JS est une librairie javaScript basée sur Processing qui a pour but de rendre le code et la programmation accessible aux artistes, designers, professeurs et débutants.
+	P5 permet d'initier ce public "naïf" aux fondamentaux de la programmation grâce à toutes les fonctions de dessin apportées par la librairie.</br>
+	En poussant plus loin, il est possible de faire de l’art numérique ou du design génératif, et cela sur le web ! Tout navigateur devient le terrain de jeu du programmeur ; et avec quelques librairies de plus liées à p5.js, il lui sera possible de jouer avec les objets HTML, la caméra, du son, de la typographie...
+
  
 ## Un peu d'inspiration :
 [Board pinterest](https://www.pinterest.fr/simonrenaultper/processing-community-days/)
@@ -10,17 +14,6 @@
 * [https://codepen.io/search/pens?q=P5JS&page=1&order=popularity&depth=everything&show_forks=on](https://codepen.io/search/pens?q=P5JS&page=1&order=popularity&depth=everything&show_forks=on)
 * [https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA](https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
 * [https://github.com/b2renger/p5js_codecreatif](https://github.com/b2renger/p5js_codecreatif)
-
-
-
-## Explication
-P5JS est une librairie javaScript basée sur Processing qui a pour but de rendre le code et la programmation accessible aux artistes, designers, professeurs et débutants.
-	P5 permet d'initier ce public "naïf" aux fondamentaux de la programmation grâce à toutes les fonctions de dessin apportées par la librairie.</br>
-	En poussant plus loin, il est possible de faire de l’art numérique ou du design génératif, et cela sur le web ! Tout navigateur devient le terrain de jeu du programmeur ; et avec quelques librairies de plus liées à p5.js, il lui sera possible de jouer avec les objets HTML, la caméra, du son, de la typographie...
-
-
-
-
 
 
 ### Définir la base du sketch
@@ -62,15 +55,24 @@ if (mouseIsPressed){
 
 ```
 
-## Comprendre le repère d'une page
+## Comprendre la notion de canvas
 
-Pour dessiner, on peut utiliser une feuille avec p5.js. On peut alors définir sa taille grâce à la fonction **createCanvas()**. L'écran est une grille composée de pixels dont l'origine se trouve en haut à gauche 
+Pour dessiner, on peut utiliser une feuille avec p5.js. On peut alors définir sa taille grâce à la fonction **createCanvas()**. Pour avoir un canvas qui prend toute la taille de la fenêtre, on utilise comme paramètres **windowWidth,windowHeight**
 
-
-### Déplacement du repère
-
-Il est possible de changer le repère grâce à la commande **translate()**
-
+Lorsqu'on place une forme dans le canvas, on la positionne par rapport à l'origine de celui-ci, qui est par défault orthonormée et située dans le coin en haut à gauche.
+Mais il possible d'effectuer des modifications sur l'origine : 
+* déplacer l'origine avec **translate()**
+* faire une rotation autour de l'origine avec **rotate()**
+Cependant, ces modifications sont valables pour tout le sketch ; ainsi tous les éléments dessinés à la suite de celles-ci seront affectées. Pour contenir ces modifications seulement sur une portion de code, on encadre cette dernière par les fonctions **push()** et **pop()**. 
+```javascript
+push() 
+translate(200,100) // déplace l'origine de 200px vers la droite, et 100 vers le bas
+rotate(PI/4) //exerce une rotation de 45° ( = Pi / 2) autour de l'origine qui a été déplacée
+rect(0,0,50,50) //place un carré sur l'origine qui a été déplacée temporairement ; il sera incliné à 45°
+pop() // l'origine du canvas a été réinitialisée à sa position d'origine (en haut à gauche de la fenêtre)
+```
+#### A noter : 
+** push() et pop()** réinitialisent également les changements de couleur,contour et opacité
 
 ## Dessiner une forme de base
 
