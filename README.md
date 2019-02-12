@@ -175,6 +175,14 @@ function draw(){
 }
 ``` 
 
+## Un peut d'interaction 
+
+Il est possible de faire interagire une forme avec la souris, le clavier, etc... Pour cela nous utiliserons les commandes **mousseX** et **mousseY**. Dans l'exemple si-joint nous allons animer un rond.
+
+```js
+
+``
+
 ## Pour aller plus loin
 * [ressource en français : b2renger recoules](https://github.com/b2renger/Introduction_p5js)
 * [ressource anglais : Daniel Shiffman] (https://shiffman.net/)
