@@ -3,7 +3,7 @@
 
 
 
-## Références uttiles : 
+## Références utiles : 
 https://p5js.org/reference/
 https://www.openprocessing.org/browse/?q=vortex&time=anytime&type=all#
 https://codepen.io/search/pens?q=P5JS&page=1&order=popularity&depth=everything&show_forks=on
