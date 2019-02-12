@@ -13,10 +13,14 @@
 
 
 
-## Explications
-P5JS est une librairie javaScript basée sur Processing qui a pour but de rendre le code et la programmation accessible aux artistes, designers, professeurs et débutants.
-P5 permet d'initier ce public "naïf" aux fondamentaux de la programmation grâce à toutes les fonctions de dessin apportées par la librairie.
-En poussant plus loin, il est possible de faire de l’art numérique ou du design génératif, et cela sur le web ! Tout navigateur devient le terrain de jeu du programmeur ; et avec quelques librairiesde plus liées à p5.js, il lui sera possible de jouer avec les objets HTML, la caméra, du son, de la typographie...
+## Explication
+Processing est un logiciel de code créatif.
+C’est un langage de programmation inspiré du java qui est totalement dédié à l’art numérique.
+Son but est de rendre le code accessible aux artistes, designers et aux personnes qui s’y intéressent en général.
+Cela permet de faire de l'électronique art, “visual design”, dans le but d’initier les personnes qui ne “codent” pas, aux fondamentaux de la programmation.
+Dans la même lignée que processing, P5JS est un langage de code créatif, mais cette fois-ci inspiré de Javascript.
+Dans les deux logiciels il y a beaucoup de fonctions de dessin, sur leurs sites respectifs on peut trouver des pages avec références, des librairies et quelques tutos…
+
 
 
 
@@ -67,6 +71,9 @@ Pour dessiner, on peut utiliser une feuille avec p5.js. On peut alors définir s
 
 
 ### Déplacement du repère
+
+Il est possible de changer le repère grâce à la commande **translate()**
+
 
 ## Dessiner une forme de base
 
