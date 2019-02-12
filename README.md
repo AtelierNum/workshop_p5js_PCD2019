@@ -288,6 +288,9 @@ function draw() {
  ellipse(300+x1, 0, 25, 25); // Nous voulons que cette fonction joue sur la valeur x de l'ellipse, c'est pour cela qu'elle va s'additionner au x de l'ellipse 
 }
 ```
+## Exercice
+
+Créer son propre animal, oiseau par exemple et si vous avez le temps, rendre une partie de son corps interactif avec la souris, par exemple son oeil.
 
 ## Pour aller plus loin
 * [ressource en français : b2renger recoules](https://github.com/b2renger/Introduction_p5js)
