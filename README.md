@@ -115,7 +115,8 @@ rect(20, 50, 70, 20)
  ```js
  rect(20, 50, 70, 20, 5, 0, 10, 0)
  ```
- 
+Par défaut, le rectangle est définit à partir du coin superieur gauche. Il est possible de changer cette définition grâce à la commande **rectMode()** . Elle peut prendre comme valeur : **CORNER** soit le coin superieur gauche; **CENTER** dessiné par le centre.
+
 ### L'arc
  
 S'ecrit sous la forme : **arc(x, y, w, h, start, stop, [mode])**
