@@ -76,18 +76,19 @@ pop() // l'origine du canvas a été réinitialisée à sa position d'origine (e
 
 ## Dessiner une forme de base
 
+Signification des lettres récurrentes 
+
+x = coorodonnée x en abscisse
+
+y = coordonnée y en ordonnée
+
+l = largeur de la forme
+
+h = hauteur de la forme
 
 ### L'ellipse
 
-S'ecrit sous la forme : ellipse(x, y, l, h)
-
-x = Coordonnée x du centre de l'ellipse (axe horizontale)
-
-y = Coordonnée y du centre de l'ellipse (axe verticale)
-
-l = largeur de l'ellipse
-
-h = hauteur de l'ellipse
+S'ecrit sous la forme : **ellipse(x, y, l, h)**
 
 ```js
  ellipse(12, 40, 20, 40)
@@ -95,21 +96,13 @@ h = hauteur de l'ellipse
     
 ### Le rectangle 
 
-S'écrit sous la form : rect(x, y, l, h)
-
-x = Coordonnée x du rectangle (axe horizontale)
-    
-y = Coordonnée y du rectangle (axe verticale)
-    
-l = largeur du rectangle
-    
-h = hauteur du rectangle 
+S'écrit sous la form : **rect(x, y, l, h)**
     
 ```js
 rect(20, 50, 70, 20)
 ```
     
-  Possibilité de rajouter des valeurs = rect(x, y, w, h, [hg], [hd], [bd], [bg])
+  Possibilité de rajouter des valeurs = **rect(x, y, w, h, [hg], [hd], [bd], [bg])**
   
 [hg] = forme de l'angle en haut à gauche soit "haut gauche = hg"
     
@@ -125,15 +118,7 @@ rect(20, 50, 70, 20)
  
 ### L'arc
  
- S'ecrit sous la forme : arc(x, y, w, h, start, stop, [mode], [detail])
- 
-x = Abscisse de l'elipse de l'arc
-    
-y = Ordonnée de l'ellipse de l'arc
-    
-w = Largeur de l'ellipse de l'arc par défaut
-    
-x = Hauteur de l'ellipse de l'arc par défaut
+ S'ecrit sous la forme : **arc(x, y, w, h, start, stop, [mode])**
     
 start = angle de début de l'arc, spécifié en radian
     
@@ -147,11 +132,7 @@ arc(100, 100, 50, 70, HALF_PI, PI)
  
 ### Le point
  
- S'ecrit sous la forme : point(x, y)
- 
-x = coordonné en abscisse
-   
-y = coordonnée en ordonnée
+ S'ecrit sous la forme : **point(x, y)**
      
 ```js
 point(100, 30)
@@ -159,7 +140,7 @@ point(100, 30)
   
 ### La ligne
  
- S'ecrit sous la forme : line(xA, yAB, xB, yB)
+ S'ecrit sous la forme : **line(xA, yAB, xB, yB)**
  
 xA = coordonnée du point A en abscisse
  
