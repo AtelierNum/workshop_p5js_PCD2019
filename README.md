@@ -1,15 +1,12 @@
 # workshop_p5js_PCD2019
-
-## Un peu d'inspiration :
-
-[Board pinterest](https://www.pinterest.fr/simonrenaultper/processing-community-days/)
-
  
 ## Explication
-
-P5JS est une librairie javaScript qui a pour but, tous comme processing de rendre le code et la programmation accessible aux artistes, designers, professeurs et débutants.
-Cela permet de faire de l’art numérique, grâce à toutes les fonctions de dessin.
-Toutefois, on peut faire plus que ça, en ajoutant des librairies qui interagissent avec de l’HTML5, des textes, des vidéos, des sons…
+Processing est un logiciel de code créatif.
+C’est un langage de programmation inspiré du java qui est totalement dédié à l’art numérique.
+Son but est de rendre le code accessible aux artistes, designers et aux personnes qui s’y intéressent en général.
+Cela permet de faire de l'électronique art, “visual design”, dans le but d’initier les personnes qui ne “codent” pas, aux fondamentaux de la programmation.
+Dans la même lignée que processing, P5JS est un langage de code créatif, mais cette fois-ci inspiré de Javascript.
+Dans les deux logiciels il y a beaucoup de fonctions de dessin, sur leurs sites respectifs on peut trouver des pages avec références, des librairies et quelques tutos…
 
 
 ## Références utiles : 
@@ -62,6 +59,11 @@ if (mouseIsPressed){
 ```
 
 ## Comprendre le repère d'une page
+
+Pour dessiner, on peut utiliser une feuille avec p5.js. On peut alors définir sa taille grâce à la fonction **createCanvas()**. L'écran est une grille composée de pixels dont l'origine se trouve en haut à gauche 
+
+
+### Déplacement du repère
 
 ## Dessiner une forme de base
 
@@ -180,12 +182,7 @@ function draw(){
 }
 ``` 
 
+## 
+## Inspiration :
 
-## Pour aller plus loin
-
-[ressource en français : b2renger recoules](https://github.com/b2renger/Introduction_p5js)
-
-[ressource anglais : Daniel Shiffman] (https://shiffman.net/)
-[ressource video de Shiffman](https://www.youtube.com/user/shiffman)
-[https://codepen.io/](https://codepen.io/)
-[https://www.openprocessing.org/](https://www.openprocessing.org/)
+[Board pinterest](https://www.pinterest.fr/simonrenaultper/processing-community-days/)
