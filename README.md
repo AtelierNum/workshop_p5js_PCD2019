@@ -192,7 +192,7 @@ function draw(){
     //la valeur de y = mousseY : l'ellipse suivra la souris sur toutes les valeurs de y soit sur l'axe des ordonnées
 }
 ```
-Maintenant nous allons créer une interaction dans une zone définit grâce à la fonction **map()** qui permet de rentrer une valeur de départ et une valeur de fin. Soit l'exemple ci-contre fait interagire un rond dans un rond plus grand.
+Maintenant nous allons créer une interaction dans une zone définit grâce à la fonction **map()** qui permet de rentrer un intervalle de valeurs de départ et un intervalle valeur de fin. Soit l'exemple ci-contre fait interagire un rond dans un rond plus grand.
 
 ## Pour aller plus loin
 * [ressource en français : b2renger recoules](https://github.com/b2renger/Introduction_p5js)
