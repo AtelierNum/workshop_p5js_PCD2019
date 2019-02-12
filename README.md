@@ -66,10 +66,10 @@ Le rectangle => rect(x, y, l, h)
     y = Coordonnée y du rectangle (axe verticale)
     l = largeur du rectangle
     h = hauteur du rectangle
- ```
+ 
     
   Possibilité de rajouter des valeurs => rect(x, y, w, h, [hg], [hd], [bd], [bg])
- ```[hg] = forme de l'angle en haut à gauche soit "haut gauche = hg"
+    [hg] = forme de l'angle en haut à gauche soit "haut gauche = hg"
     [hd] = forme angle en haut à droite "haut droit = hd"
     [bd] = "bas droit = bd"
     [bg] = "bas gauche = bg"
@@ -84,7 +84,10 @@ Le rectangle => rect(x, y, l, h)
     stop = angle de fin de l'arc, spécifié en radian 
     mode = Paramètre optionnel, permet de définir le chemin du dessin de l'arc : CHORD, OPEN, PIE 
  ```
-    
+ Le point => point(x, y)
+  ```x = coordonné en abscisse
+     y = coordonnée en ordonnée
+  ```
  La ligne => line(xA, yAB, xB, yB)
  ```xA = coordonnée du point A en abscisse
     yA = coordonnée du point A en ordonnée
