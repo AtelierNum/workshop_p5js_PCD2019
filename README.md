@@ -192,7 +192,21 @@ function draw(){
     //la valeur de y = mousseY : l'ellipse suivra la souris sur toutes les valeurs de y soit sur l'axe des ordonnées
 }
 ```
-Maintenant nous allons créer une interaction dans une zone définit grâce à la fonction **map()** qui permet de rentrer un intervalle de valeurs de départ et un intervalle valeur de fin. Soit l'exemple ci-contre fait interagire un rond dans un rond plus grand.
+Maintenant nous allons créer une interaction dans une zone définit grâce à la fonction **map()** qui permet de rentrer un intervalle de valeurs de départ et un intervalle valeur de fin. Soit l'exemple ci-contre fait interagire un rond dans un rectangle. Dans un premier temps, on peut creer le rectangle dans lequel on animera le rond.
+
+```js
+function setup() {
+ createCanvas(windowWidth, windowHeight) //création de notre fenetre
+ noStroke() //enlever les bords
+}
+
+function draw() {
+  background(204); //fond légèrement gris
+  fill(13, 123,213) //rectangle de couleur bleu
+  rect(300, 0, 200, 100) //Nous avons créer un rectangle dont le coin superieur se situe à 300px de l'axe des abscisses et 0px de l'axe des ordonnées
+}
+```
+
 
 ## Pour aller plus loin
 * [ressource en français : b2renger recoules](https://github.com/b2renger/Introduction_p5js)
