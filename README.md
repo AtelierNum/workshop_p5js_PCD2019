@@ -192,7 +192,7 @@ function draw(){
     //la valeur de y = mousseY : l'ellipse suivra la souris sur toutes les valeurs de y soit sur l'axe des ordonnées
 }
 ```
-Maintenant nous allons créer une interaction dans une zone définit grâce à la fonction **map()** qui permet de rentrer un intervalle de valeurs de départ et un intervalle valeur de fin. Soit l'exemple ci-contre fait interagire un rond dans un rectangle. Dans un premier temps, on peut creer le rectangle dans lequel on animera le rond.
+Maintenant nous allons créer une interaction dans une zone définit grâce à la fonction **map()** qui permet de rentrer un intervalle de valeurs de départ et un intervalle valeur de fin. Soit l'exemple ci-contre fait interagire une ellipse dans un rectangle. Dans un premier temps, on peut creer le rectangle dans lequel on animera l'ellipse.
 
 ```js
 function setup() {
@@ -206,6 +206,24 @@ function draw() {
   rect(300, 0, 200, 100) //Nous avons créer un rectangle dont le coin superieur se situe à 300px de l'axe des abscisses et 0px de l'axe des ordonnées
 }
 ```
+Puis nous allons creer l'ellipse qui suivra la souris sur l'axe des abscisses dans un cadre précis :
+
+```js
+function setup() {
+ createCanvas(windowWidth, windowHeight)
+ noStroke()
+}
+
+function draw() {
+  background(204); 
+  fill(13, 123,213) 
+  rect(300, 0, 200, 100) 
+  
+  fill(255) //couleur pour l'ellipse
+  ellipse(0, 0, 25, 25) //ellipse se situant à l'orgine du repère, et de diamètre 25px
+}
+```
+Mainteant nous allons utiliser la fonction map qui va permettre l'animation. Elle s'écrit **map(valeur, début1, début2, fin1, fin2, [dans les limites]** 
 
 
 ## Pour aller plus loin
