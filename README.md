@@ -17,7 +17,7 @@
 Processing est un logiciel de code créatif.
 C’est un langage de programmation inspiré du java qui est totalement dédié à l’art numérique.
 Son but est de rendre le code accessible aux artistes, designers et aux personnes qui s’y intéressent en général.
-Cela permet de faire de l'électronique art, “visual design”, dans le but d’initier les personnes qui ne “codent” pas, aux fondamentaux de la programmation.
+Cela permet de faire de l'électronique art, “visual design”, dans le but d’initier les personnes qui ne “codent” pas, aux fondamentaux de la programmation.</br>
 Dans la même lignée que processing, P5JS est un langage de code créatif, mais cette fois-ci inspiré de Javascript.
 Dans les deux logiciels il y a beaucoup de fonctions de dessin, sur leurs sites respectifs on peut trouver des pages avec références, des librairies et quelques tutos…
 
