@@ -163,6 +163,7 @@ yB = coordonnée du point B en ordonnée
 L'affichage de la couleur se fait grâce à un mélange de trois sources de lumière : rouge, vert et bleu (soit en anglais red, green, blue : RGB). Ces sources s'écrivent sous forme de nombres compris entre 0 et 255, le 0 correspondant au noir et 255 au blanc. Pour retrouver ou trouver une teinte, il est possible de s'aider de sites tel que https://www.w3schools.com/colors/colors_picker.asp. 
 
 Lorsqu'on dessine une forme exemple une ellipse on peut mettre de la couleur qui s'écrit sous la forme : **fill()**
+Il est aussi possible de changer la couleur du contour avec la fonction **stroke()**
 
 ``` js
 function setup(){
@@ -170,8 +171,9 @@ createCanvas(windowWidth, windowHeight)
 }
 
 function draw(){
- ellipse(windowWidth, windowHeight, 100, 100); //création de notre ellipse
- fill(204, 255, 204); //couleur rgb pour faire du vert
+ ellipse(windowWidth/2, windowHeight/2, 100, 100); //création de notre ellipse centrée au milieu de la page
+ fill(204, 255, 204); //couleur rgb de remplissage pour faire du vert
+ stroke(0) // couleur correspondant au noir
 }
 ``` 
 
