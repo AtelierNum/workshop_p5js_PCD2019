@@ -247,6 +247,28 @@ function draw() {
 }
 ```
 
+Nous devons changer l'origine du repère de l'ellipse et le metre au niveau du début du rectangle, soit à 300px, de même nous allons changer son ordonnée à 75px :
+
+```js
+function setup() {
+ createCanvas(windowWidth, windowHeight)
+ noStroke()
+}
+
+function draw() {
+  background(204);
+  fill(13, 123,213)
+  rect(300, 0, 200, 100)
+    
+ fill(255)
+ map(mouseX, 90, windowWidth/2, 0, 200, true); 
+ 	//0 = l'origine du repère de l'ellipse, l'ellipse se situe à 300px du canvas mais bien à 0px de ce nouveau repère
+	//200 = la fin du nouveau repère de l'ellipse, soit 200px plus loin
+	// true va permettre de pauser une limite. Ainsi si la souris sort de l'encadrement [90px; windowWidth/2] alors le point ne sotira pas
+	
+ ellipse(300, 75, 25, 25); 
+}
+```
 
 
 ## Pour aller plus loin
