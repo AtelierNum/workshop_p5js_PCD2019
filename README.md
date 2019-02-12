@@ -66,7 +66,9 @@ l = largeur de l'ellipse
 
 h = hauteur de l'ellipse
 
-``` ellipse(12, 40, 20, 40)```
+```js
+ ellipse(12, 40, 20, 40)
+ ```
     
 ### Le rectangle 
 
@@ -80,7 +82,9 @@ l = largeur du rectangle
     
 h = hauteur du rectangle 
     
-```rect(20, 50, 70, 20)```
+```js
+rect(20, 50, 70, 20)
+```
     
   Possibilité de rajouter des valeurs = rect(x, y, w, h, [hg], [hd], [bd], [bg])
   
@@ -92,9 +96,11 @@ h = hauteur du rectangle
    
 [bg] = "bas gauche = bg"
     
- ```rect(20, 50, 70, 20, 5, 0, 10, 0)```
+ ```js
+ rect(20, 50, 70, 20, 5, 0, 10, 0)
+ ```
  
- ### L'arc
+### L'arc
  
  S'ecrit sous la forme : arc(x, y, w, h, start, stop, [mode], [detail])
  
@@ -112,9 +118,11 @@ stop = angle de fin de l'arc, spécifié en radian
   
 mode = Paramètre optionnel, permet de définir le chemin du dessin de l'arc : CHORD, OPEN, PIE 
     
- ``` arc(100, 100, 50, 70, HALF_PI, PI```
+```js
+arc(100, 100, 50, 70, HALF_PI, PI
+```
  
- ### Le point
+### Le point
  
  S'ecrit sous la forme : point(x, y)
  
@@ -122,9 +130,11 @@ x = coordonné en abscisse
    
 y = coordonnée en ordonnée
      
-  ```point(100, 30)```
+```js
+point(100, 30)
+```
   
- ### La ligne
+### La ligne
  
  S'ecrit sous la forme : line(xA, yAB, xB, yB)
  
@@ -136,7 +146,9 @@ xB = coordonnée du point B en abscisse
  
 yB = coordonnée du point B en ordonnée 
 
- ```line(50, 70, 100, 150)```
+ ```js
+ line(50, 70, 100, 150)
+ ```
  
 ## Inspiration :
 
