@@ -51,7 +51,7 @@ if (mouseIsPressed){
 
 ## Comprendre le repère d'une page
 
-## Dessiner une forme
+## Dessiner une forme de base
 
 ```
 Forme ellipse => ellipse(x, y, l, h)
@@ -80,6 +80,12 @@ Possibilité de rajouter des valeurs => rect(x, y, w, h, [hg], [hd], [bd], [bg])
     start = angle de début de l'arc, spécifié en radian
     stop = angle de fin de l'arc, spécifié en radian 
     mode = Paramètre optionnel, permet de définir le chemin du dessin de l'arc : CHORD, OPEN, PIE
+    
+ Forme ligne => line(xA, yAB, xB, yB)
+    xA = coordonnée du point A en abscisse
+    yA = coordonnée du point A en ordonnée
+    xB = coordonnée du point B en abscisse
+    yB = coordonnée du point B en ordonnée
     
 ```
 ## Inspiration :
