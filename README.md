@@ -177,10 +177,20 @@ function draw(){
 
 ## Un peut d'interaction 
 
-Il est possible de faire interagire une forme avec la souris, le clavier, etc... Pour cela nous utiliserons les commandes **mousseX** et **mousseY**. Dans l'exemple si-joint nous allons animer un rond.
+Il est possible de faire interagire une forme avec la souris, le clavier, etc... Pour cela nous utiliserons les commandes **mouseX** et **mouseY**. Dans l'exemple si-joint nous allons animer un rond.
 
 ```js
+function setup(){
+    createCanvas(windowWidth, windowHeight) //création de la taille de la fenetre
+}
 
+function draw(){
+    background (23, 123, 223) //amener un fond bleu 
+    fill(0) //couleut de la forme noire
+    ellipse(mouseX, mouseY, 50, 50) // création de l'ellipse
+    //la valeur de x = mouseX : l'ellipse suivra la souris sur toutes les valeurs de x soit sur l'axe des abscisses
+    //la valeur de y = mousseY : l'ellipse suivra la souris sur toutes les valeurs de y soit sur l'axe des ordonnées
+}
 ``
 
 ## Pour aller plus loin
