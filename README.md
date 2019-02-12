@@ -3,7 +3,7 @@
 
 
 
-## Références uttiles : 
+## Références utiles : 
 
 https://p5js.org/reference/
 
