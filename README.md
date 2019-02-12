@@ -54,6 +54,7 @@ if (mouseIsPressed){
 
 # Dessiner une forme
 
+```
 Forme ellipse => ellipse(x, y, w, h)
     x = Coordonnée x de l'ellipse (axe horizontale)
     y = Coordonnée y de l'ellipse (axe verticale)
@@ -66,12 +67,11 @@ Forme rectangle => rect(x, y, w, h)
     w = largeur du rectangle
     h = hauteur du rectangle
     
-    Possibilité de rajouter des valeurs => rect(x, y, w, h, [tl], [tr], [br], [bl])
-    
-        [tl] = forme de l'angle en haut à gauche soit "Top Left = tl"
-        [tr] = forme angle en haut à droite "Top Right = tr"
-        [br] = "Bottom Right = br"
-        [bl] = "Bottom Left = bl"
+Possibilité de rajouter des valeurs => rect(x, y, w, h, [tl], [tr], [br], [bl])
+    [tl] = forme de l'angle en haut à gauche soit "Top Left = tl"
+    [tr] = forme angle en haut à droite "Top Right = tr"
+    [br] = "Bottom Right = br"
+    [bl] = "Bottom Left = bl"
  
  Forme arc => arc(x, y, w, h, start, stop, [mode], [detail])
     x = Abscisse de l'elipse de l'arc
@@ -80,8 +80,8 @@ Forme rectangle => rect(x, y, w, h)
     x = Hauteur de l'ellipse de l'arc par défaut
     start = angle de début de l'arc, spécifié en radian
     stop = angle de fin de l'arc, spécifié en radian 
-    mode = Paramètre optionnel, permet de définir le chemin du dessin de l'arc : CHORD (
-
+    mode = Paramètre optionnel, permet de définir le chemin du dessin de l'arc : CHORD 
+```
 ## Inspiration :
 
 [Board pinterest](https://www.pinterest.fr/simonrenaultper/processing-community-days/)
