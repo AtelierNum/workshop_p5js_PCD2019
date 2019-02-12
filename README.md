@@ -68,10 +68,10 @@ Forme rectangle => rect(x, y, l, h)
     h = hauteur du rectangle
     
 Possibilité de rajouter des valeurs => rect(x, y, w, h, [tl], [tr], [br], [bl])
-    [tl] = forme de l'angle en haut à gauche soit "Top Left = tl"
-    [tr] = forme angle en haut à droite "Top Right = tr"
-    [br] = "Bottom Right = br"
-    [bl] = "Bottom Left = bl"
+    [hg] = forme de l'angle en haut à gauche soit "haut gauche = hg"
+    [hd] = forme angle en haut à droite "haut droit = hd"
+    [bd] = "bas droit = bd"
+    [bg] = "bas gauche = bg"
  
  Forme arc => arc(x, y, w, h, start, stop, [mode], [detail])
     x = Abscisse de l'elipse de l'arc
