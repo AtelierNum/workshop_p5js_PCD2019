@@ -96,7 +96,7 @@ S'ecrit sous la forme : **ellipse(x, y, l, h)**
     
 ### Le rectangle 
 
-S'écrit sous la form : **rect(x, y, l, h)**
+S'écrit sous la forme : **rect(x, y, l, h)**
     
 ```js
 rect(20, 50, 70, 20)
@@ -118,7 +118,7 @@ rect(20, 50, 70, 20)
  
 ### L'arc
  
- S'ecrit sous la forme : **arc(x, y, w, h, start, stop, [mode])**
+S'ecrit sous la forme : **arc(x, y, w, h, start, stop, [mode])**
     
 start = angle de début de l'arc, spécifié en radian
     
@@ -132,7 +132,7 @@ arc(100, 100, 50, 70, HALF_PI, PI)
  
 ### Le point
  
- S'ecrit sous la forme : **point(x, y)**
+S'ecrit sous la forme : **point(x, y)**
      
 ```js
 point(100, 30)
