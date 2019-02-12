@@ -126,7 +126,7 @@ stop = angle de fin de l'arc, spécifié en radian
   
 mode = Paramètre optionnel, permet de définir le chemin du dessin de l'arc : CHORD, OPEN, PIE 
 
-[image](!cercle_trigonometrique.png)
+[image](/cercle_trigonometrique.png)
     
 ```js
 arc(100, 100, 50, 70, HALF_PI, PI)
