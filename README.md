@@ -3,7 +3,7 @@
 
 
 
-## Références utiles : 
+## Références uttiles : 
 
 https://p5js.org/reference/
 
@@ -34,7 +34,6 @@ function draw(){
 
 
 ```
-
 ## Les expressions conditionels ( if, else )
 
 Les expressions conditionelles servent à executer du code uniquement si certaines conditions sont remplies.  Par exemple le code si dessous permet de changer la couleur de stroke quand la souris est pressé.
@@ -50,7 +49,7 @@ if (mouseIsPressed){
 
 ```
 
-## Comprendre les coordonnées dans une page 
+## Comprendre le repère d'une page
 
 ## Dessiner une forme
 
