@@ -58,8 +58,11 @@ if (mouseIsPressed){
 
 ellipse(x, y, l, h)
 x = Coordonnée x du centre de l'ellipse (axe horizontale)
+
 y = Coordonnée y du centre de l'ellipse (axe verticale)
+
 l = largeur de l'ellipse
+
 h = hauteur de l'ellipse
 ``` ellipse(12, 40, 20, 40)```
     
