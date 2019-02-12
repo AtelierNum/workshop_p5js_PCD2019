@@ -55,16 +55,16 @@ if (mouseIsPressed){
 ## Dessiner une forme
 
 ```
-Forme ellipse => ellipse(x, y, w, h)
+Forme ellipse => ellipse(x, y, l, h)
     x = Coordonnée x de l'ellipse (axe horizontale)
     y = Coordonnée y de l'ellipse (axe verticale)
-    w = largeur de l'ellipse
+    l = largeur de l'ellipse
     h = hauteur de l'ellipse
     
-Forme rectangle => rect(x, y, w, h)
+Forme rectangle => rect(x, y, l, h)
     x = Coordonnée x du rectangle (axe horizontale)
     y = Coordonnée y du rectangle (axe verticale)
-    w = largeur du rectangle
+    l = largeur du rectangle
     h = hauteur du rectangle
     
 Possibilité de rajouter des valeurs => rect(x, y, w, h, [tl], [tr], [br], [bl])
