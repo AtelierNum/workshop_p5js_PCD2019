@@ -123,7 +123,7 @@ stop = angle de fin de l'arc, spécifié en radian
 mode = Paramètre optionnel, permet de définir le chemin du dessin de l'arc : CHORD, OPEN, PIE 
     
 ```js
-arc(100, 100, 50, 70, HALF_PI, PI
+arc(100, 100, 50, 70, HALF_PI, PI)
 ```
  
 ### Le point
