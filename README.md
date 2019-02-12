@@ -50,7 +50,7 @@ if (mouseIsPressed){
 
 ```
 
-
+## Comprendre les coordonnées dans une page 
 
 ## Dessiner une forme
 
