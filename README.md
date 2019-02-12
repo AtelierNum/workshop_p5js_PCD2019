@@ -12,6 +12,7 @@
 * [https://github.com/b2renger/p5js_codecreatif](https://github.com/b2renger/p5js_codecreatif)
 
 
+
 ## Explication
 Processing est un logiciel de code créatif.
 C’est un langage de programmation inspiré du java qui est totalement dédié à l’art numérique.
@@ -26,7 +27,7 @@ Dans les deux logiciels il y a beaucoup de fonctions de dessin, sur leurs sites 
 
 
 ### Définir la base du sketch
-P5 utilise une fonction **setup** qui s'exécute une seule fois au lancement du sketch, puis la fonction **draw** prend le relais et est exécutée en boucle jusqu'à l'arrêt du programme.
+P5 utilise une fonction **setup()** qui s'exécute une seule fois au lancement du sketch, puis la fonction **draw()** prend le relais et est exécutée en boucle jusqu'à l'arrêt du programme.
 Il existe aussi des fonctions évènementielles qui s'exécutent de manière momentannée lorsqu'une action est effectuée par l'utilisateur, comme un clic de souris ou une pression d'une touche de clavier.
 
 ```js
@@ -49,9 +50,9 @@ function draw(){
 
 
 ```
-## Les expressions conditionels ( if, else )
+## Les expressions conditionelles ( if, else )
 
-Les expressions conditionelles servent à executer du code uniquement si certaines conditions sont remplies.  Par exemple le code si dessous permet de changer la couleur de stroke quand la souris est pressé.
+Les expressions conditionelles servent à executer du code uniquement si certaines conditions sont remplies.  Par exemple le code si dessous permet de changer la couleur de stroke quand la souris est pressée.
 
 ```js
 // si la souris est pressé executer ce code
