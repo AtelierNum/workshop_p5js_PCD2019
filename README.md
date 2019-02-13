@@ -294,7 +294,7 @@ Créer son propre animal, oiseau par exemple et si vous avez le temps, rendre un
 
 ## Pour aller plus loin
 * [ressource en français : b2renger recoules](https://github.com/b2renger/Introduction_p5js)
-* [ressource anglais : Daniel Shiffman] (https://shiffman.net/)
+* [ressource anglais : Daniel Shiffman](https://shiffman.net/)
 * [ressource video de Shiffman](https://www.youtube.com/user/shiffman)
 * [https://codepen.io/](https://codepen.io/)
 * [https://www.openprocessing.org/](https://www.openprocessing.org/)
