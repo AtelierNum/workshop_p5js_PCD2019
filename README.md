@@ -1,22 +1,47 @@
 # workshop_p5js_PCD2019
  
+ Vous pouvez retrouver l'ensemble du code et de ces explications sur ce dépot [github](https://github.com/AtelierNum/workshop_p5js_PCD2019)
+
  P5JS est une librairie javaScript basée sur Processing qui a pour but de rendre le code et la programmation accessible aux artistes, designers, professeurs et débutants.
 	P5 permet d'initier ce public "naïf" aux fondamentaux de la programmation grâce à toutes les fonctions de dessin apportées par la librairie.</br>
 	En poussant plus loin, il est possible de faire de l’art numérique ou du design génératif, et cela sur le web ! Tout navigateur devient le terrain de jeu du programmeur ; et avec quelques librairies de plus liées à p5.js, il lui sera possible de jouer avec les objets HTML, la caméra, du son, de la typographie...
 
+## Contenu
+* [Un peu d'inspiration](#Un-peu-d'inspiration)
+* [Réferences utiles](#References-utiles)
+* [Definir la base du sketch](#Definir-la-base-du-sketch)
+* [Les expressions conditionelles](#Les-expressions-conditionelles)
+* [Comprendre la notion de canvas](#Comprendre-la-notion-de-canvas)
+* [Dessiner une forme de base](#Dessiner-une-forme-de-base)
+  * [L'ellipse](#L'ellipse)
+  * [Le rectangle](#Le-rectangle)
+  * [L'arc](#L'arc)
+  * [Le point](#Le-point)
+  * [La ligne](#La-ligne)
+* [Couleurs](#Couleurs)
+* [Un peu d'interaction](#Un-peu-d'interaction)
+* [Exercice](#Exercice) - [**DEMO1**](https://ateliernum.github.io/workshop_p5js_PCD2019/exemples/birds1/) - [**DEMO2**](https://ateliernum.github.io/workshop_p5js_PCD2019/exemples/birds2/) 
+* [Pour aller plus loin](#Pour-aller-plus-loin)
+
+
+
  
-## Un peu d'inspiration :
+## Un peu d'inspiration
 [Board pinterest](https://www.pinterest.fr/simonrenaultper/processing-community-days/)
 
-## Références utiles : 
+[**home**](#Contenu)
+
+## References utiles 
 * [https://p5js.org/reference/](https://p5js.org/reference/)
 * [https://www.openprocessing.org/browse/?q=vortex&time=anytime&type=all#](https://www.openprocessing.org/browse/?q=vortex&time=anytime&type=all#)
 * [https://codepen.io/search/pens?q=P5JS&page=1&order=popularity&depth=everything&show_forks=on](https://codepen.io/search/pens?q=P5JS&page=1&order=popularity&depth=everything&show_forks=on)
 * [https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA](https://www.youtube.com/watch?v=yPWkPOfnGsw&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
 * [https://github.com/b2renger/p5js_codecreatif](https://github.com/b2renger/p5js_codecreatif)
 
+[**home**](#Contenu)
 
-### Définir la base du sketch
+
+## Definir la base du sketch
 P5 utilise une fonction **setup()** qui s'exécute une seule fois au lancement du sketch, puis la fonction **draw()** prend le relais et est exécutée en boucle jusqu'à l'arrêt du programme.
 Il existe aussi des fonctions évènementielles qui s'exécutent de manière momentannée lorsqu'une action est effectuée par l'utilisateur, comme un clic de souris ou une pression d'une touche de clavier.
 
@@ -36,11 +61,11 @@ function draw(){
     stroke(255);
   }
 }
-
-
-
 ```
-## Les expressions conditionelles ( if, else )
+
+[**home**](#Contenu)
+
+## Les expressions conditionelles
 
 Les expressions conditionelles servent à executer du code uniquement si certaines conditions sont remplies.  Par exemple le code si dessous permet de changer la couleur de stroke quand la souris est pressée.
 
@@ -54,6 +79,7 @@ if (mouseIsPressed){
 
 
 ```
+[**home**](#Contenu)
 
 ## Comprendre la notion de canvas
 
@@ -71,8 +97,13 @@ rotate(PI/4) //exerce une rotation de 45° ( = Pi / 2) autour de l'origine qui a
 rect(0,0,50,50) //place un carré sur l'origine qui a été déplacée temporairement ; il sera incliné à 45°
 pop() // l'origine du canvas a été réinitialisée à sa position d'origine (en haut à gauche de la fenêtre)
 ```
-#### A noter : 
-** push() et pop()** réinitialisent également les changements de couleur,contour et opacité
+
+**A noter :**
+
+**push()** et **pop()** réinitialisent également les changements de couleur,contour et opacité
+
+[**home**](#Contenu)
+
 
 ## Dessiner une forme de base
 
@@ -86,6 +117,8 @@ l = largeur de la forme
 
 h = hauteur de la forme
 
+[**home**](#Contenu)
+
 ### L'ellipse
 
 S'ecrit sous la forme : **ellipse(x, y, l, h)**
@@ -93,7 +126,9 @@ S'ecrit sous la forme : **ellipse(x, y, l, h)**
 ```js
  ellipse(12, 40, 20, 40)
  ```
-    
+
+[**home**](#Contenu)
+
 ### Le rectangle 
 
 S'écrit sous la forme : **rect(x, y, l, h)**
@@ -117,6 +152,10 @@ rect(20, 50, 70, 20)
  ```
 Par défaut, le rectangle est définit à partir du coin superieur gauche. Il est possible de changer cette définition grâce à la commande **rectMode()** . Elle peut prendre comme valeur : **CORNER** soit le coin superieur gauche; **CENTER** dessiné par le centre.
 
+
+[**home**](#Contenu)
+
+
 ### L'arc
  
 S'ecrit sous la forme : **arc(x, y, w, h, start, stop, [mode])**
@@ -132,7 +171,9 @@ mode = Paramètre optionnel, permet de définir le chemin du dessin de l'arc : C
 ```js
 arc(100, 100, 50, 70, HALF_PI, PI)
 ```
- 
+
+[**home**](#Contenu)
+
 ### Le point
  
 S'ecrit sous la forme : **point(x, y)**
@@ -140,6 +181,9 @@ S'ecrit sous la forme : **point(x, y)**
 ```js
 point(100, 30)
 ```
+
+[**home**](#Contenu)
+
   
 ### La ligne
  
@@ -156,6 +200,9 @@ yB = coordonnée du point B en ordonnée
  ```js
  line(50, 70, 100, 150)
  ```
+
+[**home**](#Contenu)
+
 ## Couleurs
 
 L'affichage de la couleur se fait grâce à un mélange de trois sources de lumière : rouge, vert et bleu (soit en anglais red, green, blue : RGB). Ces sources s'écrivent sous forme de nombres compris entre 0 et 255, le 0 correspondant au noir et 255 au blanc. Pour retrouver ou trouver une teinte, il est possible de s'aider de sites tel que https://www.w3schools.com/colors/colors_picker.asp. 
@@ -174,6 +221,9 @@ function draw(){
  stroke(0) // couleur correspondant au noir
 }
 ``` 
+
+[**home**](#Contenu)
+
 
 ## Un peu d'interaction 
 
@@ -288,9 +338,16 @@ function draw() {
  ellipse(300+x1, 0, 25, 25); // Nous voulons que cette fonction joue sur la valeur x de l'ellipse, c'est pour cela qu'elle va s'additionner au x de l'ellipse 
 }
 ```
+
+[**home**](#Contenu)
+`
 ## Exercice
 
 Créer son propre animal, oiseau par exemple et si vous avez le temps, rendre une partie de son corps interactif avec la souris, par exemple son oeil.
+
+
+[**home**](#Contenu)
+
 
 ## Pour aller plus loin
 * [ressource en français : b2renger recoules](https://github.com/b2renger/Introduction_p5js)
@@ -298,3 +355,7 @@ Créer son propre animal, oiseau par exemple et si vous avez le temps, rendre un
 * [ressource video de Shiffman](https://www.youtube.com/user/shiffman)
 * [https://codepen.io/](https://codepen.io/)
 * [https://www.openprocessing.org/](https://www.openprocessing.org/)
+
+
+[**home**](#Contenu)
+
